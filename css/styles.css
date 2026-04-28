@@ -251,21 +251,6 @@ button, input, textarea { font: inherit; }
 .button-secondary { border: 1px solid rgba(255,255,255,0.22); color: var(--white); background: rgba(255,255,255,0.06); }
 .button-secondary:hover { border-color: rgba(255,255,255,0.45); background: rgba(255,255,255,0.11); }
 
-.stats-strip { background: var(--teal); padding: 2rem; }
-.stats-grid {
-  width: min(100%, var(--max-width));
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1px;
-  background: rgba(255,255,255,0.12);
-  border-radius: 22px;
-  overflow: hidden;
-}
-.stat-item { background: var(--teal); padding: 1.55rem 1rem; text-align: center; color: var(--white); }
-.stat-number { display: block; color: var(--coral); font-size: 2rem; line-height: 1; font-weight: 900; }
-.stat-label { display: block; margin-top: 0.4rem; font-size: 0.72rem; letter-spacing: 0.11em; text-transform: uppercase; opacity: 0.66; font-weight: 900; }
-
 .who-grid, .services-grid, .themes-grid, .goals-grid {
   width: min(100%, var(--max-width));
   margin: 0 auto;
@@ -467,7 +452,7 @@ button, input, textarea { font: inherit; }
   }
   .nav-links.is-open { transform: translateY(0); opacity: 1; pointer-events: auto; }
   .nav-links a { display: block; padding: 0.85rem 0; }
-  .stats-grid, .services-grid, .themes-grid { grid-template-columns: repeat(2, 1fr); }
+  .services-grid, .themes-grid { grid-template-columns: repeat(2, 1fr); }
   .insight-inner { grid-template-columns: 1fr; }
 }
 
@@ -477,9 +462,7 @@ button, input, textarea { font: inherit; }
   .hero { min-height: auto; padding: 4.5rem 1rem 4rem; }
   .hero-actions { flex-direction: column; align-items: stretch; }
   .button { width: 100%; }
-  .stats-strip { padding: 1rem; }
-  .stats-grid, .who-grid, .services-grid, .themes-grid, .goals-grid { grid-template-columns: 1fr; }
-  .stat-item { padding: 1.25rem 0.85rem; }
+  .who-grid, .services-grid, .themes-grid, .goals-grid { grid-template-columns: 1fr; }
   .audience-card { padding: 1.45rem; min-height: auto; }
   .carousel { padding: 0; }
   .carousel-btn { display: none; }
