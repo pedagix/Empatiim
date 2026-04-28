@@ -41,15 +41,6 @@ function renderHero(hero = {}) {
     .join('');
 }
 
-function renderStats(stats = []) {
-  $('#statsGrid').innerHTML = stats.map(stat => `
-    <article class="stat-item">
-      <span class="stat-number">${escapeHtml(stat.number)}</span>
-      <span class="stat-label">${escapeHtml(stat.label)}</span>
-    </article>
-  `).join('');
-}
-
 function renderAbout(about = {}, audiences = []) {
   $('#aboutTitle').textContent = about.title || '';
   $('#aboutText').textContent = about.text || '';
@@ -148,7 +139,7 @@ function renderContact(contact = {}) {
   $('#contactText').textContent = contact.text || '';
   const button = $('#contactButton');
   button.textContent = contact.buttonLabel || 'Skicka e-post';
-  button.href = `mailto:${contact.email || 'pedagix@gmail.com'}`;
+  button.href = `mailto:${contact.email || 'benjamin.vonkraemer@gmail.com'}`;
 }
 
 function setupInteractions() {
@@ -197,7 +188,6 @@ async function init() {
 
     renderNavigation(data.navigation);
     renderHero(data.hero);
-    renderStats(data.stats);
     renderAbout(data.about, data.audiences);
     renderServices(data.services);
     renderInsight(data.insight);
