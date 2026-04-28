@@ -6,7 +6,239 @@
     { "label": "Hem", "target": "hem" },
     { "label": "Om", "target": "om" },
     { "label": "Tjänster", "target": "tjanster" },
-    { "label": "Teman", "target": "teman" },
+    { "label": "Teman", "target": "teman" },{
+  "site": {
+    "footer": "© 2026 Empatiim. Workshops, föreläsningar och digitalt material om att möta barns känslor."
+  },
+  "navigation": [
+    {
+      "label": "Hem",
+      "target": "hem"
+    },
+    {
+      "label": "Om",
+      "target": "om"
+    },
+    {
+      "label": "Tjänster",
+      "target": "tjanster"
+    },
+    {
+      "label": "Teman",
+      "target": "teman"
+    },
+    {
+      "label": "Material",
+      "target": "material"
+    },
+    {
+      "label": "Mål",
+      "target": "mal"
+    },
+    {
+      "label": "Kontakt",
+      "target": "kontakt"
+    }
+  ],
+  "hero": {
+    "title": "Att möta barns känslor med värme och tydlighet",
+    "subtitle": "Empatiim hjälper vuxna att förstå, bemöta och prata om barns känslor genom workshops, föreläsningar och lättanvänt digitalt material.",
+    "badges": [
+      "Skola",
+      "Hem",
+      "Professionella",
+      "Vårdnadshavare"
+    ]
+  },
+  "about": {
+    "title": "En tryggare väg in i känslor",
+    "text": "Empatiim utgår från att känslor inte ska tryckas bort eller lösas snabbt. Barn behöver vuxna som kan stanna upp, sätta ord på det som händer och skapa trygga ramar för utveckling."
+  },
+  "audiences": [
+    {
+      "label": "För skolan",
+      "title": "Stöd för lärare och skolpersonal",
+      "text": "Material och workshops som gör det enklare att prata om känslor, konflikter, styrkor och hinder i vardagen.",
+      "emoji": "🏫",
+      "variant": "dark",
+      "points": [
+        "Lektionsnära övningar",
+        "Gemensamt språk i arbetslaget",
+        "Material för klassrummet"
+      ]
+    },
+    {
+      "label": "För hemmet",
+      "title": "Stöd för vårdnadshavare",
+      "text": "En inbjudande helhet som hjälper vuxna att bemöta barns reaktioner med lugn, tydlighet och empati.",
+      "emoji": "💛",
+      "variant": "light",
+      "points": [
+        "Konkreta exempel",
+        "Reflektionsfrågor",
+        "Vardagliga strategier"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "icon": "🎤",
+      "title": "Föreläsningar",
+      "text": "Inspirerande och professionella föreläsningar om barns känslor, bemötande och vuxnas roll i känslomässigt svåra situationer.",
+      "items": [
+        "För personalgrupper",
+        "För vårdnadshavarkvällar",
+        "Som startpunkt för vidare arbete"
+      ]
+    },
+    {
+      "icon": "🧩",
+      "title": "Workshops",
+      "text": "Praktiska tillfällen där deltagarna får testa språk, övningar och modeller som kan användas direkt i vardagen.",
+      "items": [
+        "Interaktivt upplägg",
+        "Gruppdiskussioner",
+        "Konkreta verktyg"
+      ]
+    },
+    {
+      "icon": "▶️",
+      "title": "Digitalt material",
+      "text": "Videoserier, reflektionsuppgifter och visuellt stöd som kan användas flexibelt i skola, hem och fortbildning.",
+      "items": [
+        "Kortformat",
+        "Lätt att dela",
+        "Byggbart över tid"
+      ]
+    }
+  ],
+  "insight": {
+    "quote": "Barn behöver inte vuxna som alltid har snabba svar. De behöver vuxna som vågar möta känslan tillsammans med dem.",
+    "points": [
+      {
+        "title": "Förstå först",
+        "text": "När känslan blir begriplig minskar ofta behovet av kamp, försvar och flykt."
+      },
+      {
+        "title": "Sätt ord på det svåra",
+        "text": "Ett gemensamt språk gör det lättare för barn och vuxna att prata om det som händer."
+      },
+      {
+        "title": "Bygg trygg handling",
+        "text": "Empatiim kombinerar värme med tydliga ramar, så att bemötandet blir konkret."
+      }
+    ]
+  },
+  "themes": [
+    {
+      "title": "Att känna alla känslor",
+      "text": "Om att alla känslor får finnas, även när de är obekväma eller svåra att förstå."
+    },
+    {
+      "title": "Styrkor och hinder",
+      "text": "Om att se barnets resurser samtidigt som man vågar prata om det som blir svårt."
+    },
+    {
+      "title": "Vuxnas bemötande",
+      "text": "Om hur ton, kroppsspråk, timing och tydlighet påverkar barnets möjlighet att lugna sig."
+    },
+    {
+      "title": "Konflikter och reparation",
+      "text": "Om hur misstag, gräl och starka reaktioner kan bli en väg till kontakt och lärande."
+    },
+    {
+      "title": "Känslor i kroppen",
+      "text": "Om att förstå kroppens signaler och hjälpa barn att märka vad som händer inuti."
+    },
+    {
+      "title": "Trygga samtal",
+      "text": "Om frågor, lyssnande och reflektionsövningar som hjälper barn att uttrycka sig."
+    }
+  ],
+  "episodes": [
+    {
+      "title": "Vad är Empatiim?",
+      "text": "En kort introduktion till helheten och tanken bakom materialet."
+    },
+    {
+      "title": "Att känna alla känslor",
+      "text": "Varför känslor inte behöver sorteras i bra och dåliga."
+    },
+    {
+      "title": "Styrkor och hinder",
+      "text": "Hur man kan lyfta fram resurser utan att blunda för svårigheter."
+    },
+    {
+      "title": "Barns känslor i vardagen",
+      "text": "Exempel på situationer där vuxnas bemötande gör skillnad."
+    },
+    {
+      "title": "När känslan tar över",
+      "text": "Hur vuxna kan hjälpa barn när reaktionen blir stark."
+    },
+    {
+      "title": "Att sätta ord på känslor",
+      "text": "Om språkets betydelse för trygghet och självförståelse."
+    },
+    {
+      "title": "Empati och gränser",
+      "text": "Varför värme och tydlighet behöver gå hand i hand."
+    },
+    {
+      "title": "Skolans roll",
+      "text": "Hur materialet kan användas i undervisning och elevstöd."
+    },
+    {
+      "title": "Vårdnadshavares roll",
+      "text": "Hur hemmet kan stöda barnets emotionella utveckling."
+    },
+    {
+      "title": "Konflikter som möjlighet",
+      "text": "Hur svåra stunder kan bli reparerbara samtal."
+    },
+    {
+      "title": "Känslor i kroppen",
+      "text": "Att känna igen signaler och skapa begriplighet."
+    },
+    {
+      "title": "Samtalsfrågor",
+      "text": "Frågor som öppnar upp utan att pressa barnet."
+    },
+    {
+      "title": "Material i praktiken",
+      "text": "Hur videoserien, övningarna och workshops kan kopplas ihop."
+    },
+    {
+      "title": "Nästa steg",
+      "text": "Hur Empatiim kan utvecklas vidare tillsammans med användarna."
+    }
+  ],
+  "goals": [
+    {
+      "title": "Skapa ett gemensamt språk",
+      "text": "Ge vuxna och barn ord för känslor, behov och situationer som ofta blir svåra."
+    },
+    {
+      "title": "Sänka tröskeln för samtal",
+      "text": "Göra det lättare att börja prata om känslor i klassrum, hem och personalgrupper."
+    },
+    {
+      "title": "Stärka vuxnas trygghet",
+      "text": "Ge konkreta modeller som hjälper vuxna att agera lugnt och tydligt."
+    },
+    {
+      "title": "Bygga vidare över tid",
+      "text": "Skapa en flexibel helhet som kan växa med nya videos, övningar och teman."
+    }
+  ],
+  "contact": {
+    "title": "Vill du använda Empatiim i din skola eller grupp?",
+    "text": "Ta kontakt om du vill diskutera föreläsningar, workshops, samarbete eller fortsatt utveckling av materialet.",
+    "email": "benjamin.vonkraemer@gmail.com",
+    "buttonLabel": "Skicka e-post"
+  }
+}
+
     { "label": "Material", "target": "material" },
     { "label": "Mål", "target": "mal" },
     { "label": "Kontakt", "target": "kontakt" }
