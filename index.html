@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Empatiim erbjuder workshops, föreläsningar och digitalt material om att möta barns känslor." />
+  <title>Empatiim – Att möta barns känslor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Lora:ital,wght@0,500;0,600;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Hoppa till innehåll</a>
+
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Huvudnavigation">
+      <a class="brand" href="#top" data-scroll-target="top" aria-label="Empatiim startsida">
+        <span class="brand-mark" aria-hidden="true">E</span>
+        <span class="brand-text">Empatiim</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Öppna meny</span>
+      </button>
+
+      <ul class="nav-links" id="navLinks"></ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="hem" data-section>
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-content">
+        <div class="hero-logo" aria-hidden="true">E</div>
+        <p class="eyebrow hero-eyebrow">Empati • känslor • vardag</p>
+        <h1 id="heroTitle">Att möta barns känslor med värme och tydlighet</h1>
+        <p class="hero-subtitle" id="heroSubtitle"></p>
+        <div class="hero-audience" id="heroBadges"></div>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#kontakt" data-scroll-target="kontakt">Ta kontakt</a>
+          <a class="button button-secondary" href="#tjanster" data-scroll-target="tjanster">Se helheten</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-strip" aria-label="Empatiim i korthet">
+      <div class="stats-grid" id="statsGrid"></div>
+    </section>
+
+    <section class="section intro-section" id="om" data-section>
+      <div class="section-head">
+        <p class="eyebrow">Varför Empatiim?</p>
+        <h2 id="aboutTitle"></h2>
+        <p id="aboutText"></p>
+      </div>
+      <div class="who-grid" id="audienceGrid"></div>
+    </section>
+
+    <section class="section services-section" id="tjanster" data-section>
+      <div class="section-head">
+        <p class="eyebrow">Helheten</p>
+        <h2>Workshops, föreläsningar och digitalt material</h2>
+        <p>Byggstenar som kan användas separat eller som en sammanhängande helhet för skola och hem.</p>
+      </div>
+      <div class="services-grid" id="servicesGrid"></div>
+    </section>
+
+    <section class="insight-band" id="perspektiv" data-section>
+      <div class="insight-inner">
+        <blockquote id="insightQuote"></blockquote>
+        <ul class="insight-list" id="insightList"></ul>
+      </div>
+    </section>
+
+    <section class="section themes-section" id="teman" data-section>
+      <div class="section-head">
+        <p class="eyebrow">Teman</p>
+        <h2>Innehåll som stärker emotionell förståelse</h2>
+        <p>Temana fungerar som moduler för lektioner, workshops, videoserier och reflektionsövningar.</p>
+      </div>
+      <div class="themes-grid" id="themesGrid"></div>
+    </section>
+
+    <section class="episodes-section" id="material" data-section>
+      <div class="episodes-head">
+        <p class="eyebrow">Gratismaterial</p>
+        <h2>Videoserien som introducerar Empatiim</h2>
+        <p>Korta delar som kan användas som diskussionsstartare eller som marknadsföring av helheten.</p>
+      </div>
+
+      <div class="carousel" aria-label="Videoserie">
+        <button class="carousel-btn prev" type="button" id="episodePrev" aria-label="Visa föregående">‹</button>
+        <div class="episodes-track" id="episodesTrack" tabindex="0"></div>
+        <button class="carousel-btn next" type="button" id="episodeNext" aria-label="Visa nästa">›</button>
+      </div>
+      <div class="carousel-dots" id="episodeDots" aria-hidden="true"></div>
+    </section>
+
+    <section class="section goals-section" id="mal" data-section>
+      <div class="section-head">
+        <p class="eyebrow">Mål</p>
+        <h2>Det Empatiim ska hjälpa vuxna och barn att göra</h2>
+        <p>Praktiska mål som gör helheten tydlig när den presenteras för skolor, vårdnadshavare och samarbetspartner.</p>
+      </div>
+      <div class="goals-grid" id="goalsGrid"></div>
+    </section>
+
+    <section class="cta-section" id="kontakt" data-section>
+      <div class="cta-content">
+        <p class="eyebrow">Vill du veta mera?</p>
+        <h2 id="contactTitle"></h2>
+        <p id="contactText"></p>
+        <a class="button button-primary" id="contactButton" href="mailto:pedagix@gmail.com">Skicka e-post</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="#top" data-scroll-target="top">
+      <span class="brand-mark small" aria-hidden="true">E</span>
+      <span>Empatiim</span>
+    </a>
+    <p id="footerText"></p>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>
