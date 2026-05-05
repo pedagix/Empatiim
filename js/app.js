@@ -60,7 +60,6 @@ function renderServices(services = []) {
   $('#servicesGrid').innerHTML = services.map(service => `
     <article class="service-card">
       <div class="service-top">
-        <div class="service-icon" aria-hidden="true">${escapeHtml(service.icon)}</div>
         <h3>${escapeHtml(service.title)}</h3>
         <p>${escapeHtml(service.text)}</p>
       </div>
@@ -138,7 +137,7 @@ function renderContact(contact = {}) {
   $('#contactTitle').textContent = contact.title || '';
   $('#contactText').textContent = contact.text || '';
   const button = $('#contactButton');
-  button.textContent = contact.buttonLabel || 'Skicka e-post';
+  button.textContent = contact.buttonLabel || 'Ta kontakt';
   button.href = `mailto:${contact.email || 'benjamin.vonkraemer@gmail.com'}`;
 }
 
