@@ -34,7 +34,7 @@
   ],
   "hero": {
     "title": "Att möta barns känslor med värme och tydlighet",
-    "subtitle": "Empatiim hjälper vuxna att förstå, bemöta och prata om barns känslor genom workshops, föreläsningar och lättanvänt digitalt material.",
+    "subtitle": "Empatiim stöder vuxna att förstå, bemöta och prata om barns känslor genom workshops, föreläsningar och lättanvänt digitalt material.",
     "badges": [
       "Skola",
       "Hem",
@@ -74,7 +74,6 @@
   ],
   "services": [
     {
-      "icon": "🎤",
       "title": "Föreläsningar",
       "text": "Inspirerande och professionella föreläsningar om barns känslor, bemötande och vuxnas roll i känslomässigt svåra situationer.",
       "items": [
@@ -84,7 +83,6 @@
       ]
     },
     {
-      "icon": "🧩",
       "title": "Workshops",
       "text": "Praktiska tillfällen där deltagarna får testa språk, övningar och modeller som kan användas direkt i vardagen.",
       "items": [
@@ -94,7 +92,6 @@
       ]
     },
     {
-      "icon": "▶️",
       "title": "Digitalt material",
       "text": "Videoserier, reflektionsuppgifter och visuellt stöd som kan användas flexibelt i skola, hem och fortbildning.",
       "items": [
@@ -219,14 +216,14 @@
       "text": "Ge konkreta modeller som hjälper vuxna att agera lugnt och tydligt."
     },
     {
-      "title": "Bygga vidare över tid",
-      "text": "Skapa en flexibel helhet som kan växa med nya videos, övningar och teman."
+      "title": "Erbjuda anpassade lösningar enligt behov",
+      "text": "Skapa en flexibel helhet som kan anpassas enligt målgrupp, situation och behov."
     }
   ],
   "contact": {
-    "title": "Vill du använda Empatiim i din skola eller grupp?",
+    "title": "Hur kan vi stöda er?",
     "text": "Ta kontakt om du vill diskutera föreläsningar, workshops, samarbete eller fortsatt utveckling av materialet.",
     "email": "benjamin.vonkraemer@gmail.com",
-    "buttonLabel": "Skicka e-post"
+    "buttonLabel": "Ta kontakt"
   }
 }
