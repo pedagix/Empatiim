@@ -78,7 +78,9 @@ function renderInsight(insight = {}) {
 }
 
 function renderThemes(themes = []) {
-  $('#themesGrid').innerHTML = themes.map(theme => `
+  const grid = $('#themesGrid');
+  if (!grid) return;
+  grid.innerHTML = themes.map(theme => `
     <article class="theme-card">
       <h3>${escapeHtml(theme.title)}</h3>
       <p>${escapeHtml(theme.text)}</p>
