@@ -16,10 +16,6 @@
       "target": "tjanster"
     },
     {
-      "label": "Teman",
-      "target": "teman"
-    },
-    {
       "label": "Material",
       "target": "material"
     },
@@ -38,8 +34,7 @@
     "badges": [
       "Skola",
       "Hem",
-      "Professionella",
-      "Vårdnadshavare"
+      "Professionella"
     ]
   },
   "about": {
