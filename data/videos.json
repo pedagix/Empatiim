@@ -1,0 +1,66 @@
+{
+  "_note": "Add your visible text in caption and the YouTube link in youtubeUrl. The site sorts thumbnails by the number at the start of the filename and ignores entries without a starting number.",
+  "thumbnailFolder": "assets/VideoThumbnails/Low res",
+  "items": [
+    {
+      "thumbnail": "2 att känna alla känslor.jpg",
+      "caption": "",
+      "youtubeUrl": "https://youtu.be/teubPf92Udo?si=7gm5-oOznS-YM9zX"
+    },
+    {
+      "thumbnail": "3 Att reda ut gräl.jpg",
+      "caption": "",
+      "youtubeUrl": "https://youtu.be/0ppHkCoevgM?si=vWtymZcnntTGfNlp"
+    },
+    {
+      "thumbnail": "4 Frihet att känna.jpg",
+      "caption": "",
+      "youtubeUrl": "https://youtu.be/Tf4qc8vlGZA?si=Qu2QEmhBYb0uILtu"
+    },
+    {
+      "thumbnail": "5 Handla för det goda.jpg",
+      "caption": "",
+      "youtubeUrl": "https://youtu.be/QpJbxrR5K4I?si=DVVlXVhaMAEUC2BZ"
+    },
+    {
+      "thumbnail": "6 Konflikter.jpg",
+      "caption": "",
+      "youtubeUrl": "https://youtu.be/6e9enoOowoE?si=k2frRBhkYLDaGS_P"
+    },
+    {
+      "thumbnail": "7 styrkor och hinder.jpg",
+      "caption": "",
+      "youtubeUrl": "https://youtu.be/JXk0CDnaZUw?si=ggcNK2rggEbBYkpi"
+    },
+    {
+      "thumbnail": "8 Revolt.jpg",
+      "caption": "",
+      "youtubeUrl": "https://youtu.be/-ja7RkSfojc?si=lMPA5uUoqnIzN2p1"
+    },
+    {
+      "thumbnail": "9 Känslor.jpg",
+      "caption": "",
+      "youtubeUrl": "https://youtu.be/JDwR_a4aUh0?si=gh8oLQh8UygcENes"
+    },
+    {
+      "thumbnail": "10 Självkontroll.jpg",
+      "caption": "",
+      "youtubeUrl": "https://youtu.be/AsDaIoXqzu4?si=YaJJhP5ankO9DPb2"
+    },
+    {
+      "thumbnail": "11 Skam.jpg",
+      "caption": "",
+      "youtubeUrl": "https://youtu.be/HNrNTmvmyx4?si=cEl-oeEYWsCG0bG-"
+    },
+    {
+      "thumbnail": "12 Stolthet.jpg",
+      "caption": "",
+      "youtubeUrl": "https://youtu.be/3kj3hEuARMg?si=7VQ_9kWT4OkcYtFh"
+    },
+    {
+      "thumbnail": "13 Tillfredsställelse.jpg",
+      "caption": "",
+      "youtubeUrl": "https://youtu.be/hE5hmCMJmlE?si=lL8Np0jNd0IifLfR"
+    }
+  ]
+}
