@@ -111,6 +111,23 @@
     </section>
   </main>
 
+  <div class="video-modal" id="videoModal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="videoModalTitle">
+    <div class="video-dialog">
+      <div class="video-modal-bar">
+        <h2 class="sr-only" id="videoModalTitle">Video</h2>
+        <button class="video-close" id="videoClose" type="button" aria-label="Stäng video">&times;</button>
+      </div>
+      <div class="video-frame-wrap">
+        <iframe
+          id="videoFrame"
+          title="Empatiim video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </div>
+
   <footer class="site-footer">
     <a class="footer-brand" href="#top" data-scroll-target="top" aria-label="Empatiim startsida">
       <img class="brand-logo footer-logo" src="assets/empatiim-logo-v2-no-text.jpg" alt="" />
